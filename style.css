@@ -101,3 +101,7 @@ footer small { display: block; margin-top: 18px; font-size: .7rem; color: var(--
   .snowfall { display: none; }
   .snowflake { animation: none; }
 }
+
+/* 별표를 SVG로 고정해 모바일 이모지 변환 방지 */
+.topline-star svg{width:21px;height:21px}
+.footer-star svg{width:23px;height:23px}
